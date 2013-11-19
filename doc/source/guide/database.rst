@@ -458,7 +458,7 @@ starred:
     27 2012-08-05 00:00:02    2012-08-05 00:00:03  AIA        33.5    33.5   
     29 2013-08-05 00:00:02    2013-08-05 00:00:03  AIA        33.5    33.5
 
-So remove the mark from these entries, the method :meth:`Database.unstar`
+To remove the mark from these entries, the method :meth:`Database.unstar`
 works the same way.
 
 5.2 Setting and removing tags
