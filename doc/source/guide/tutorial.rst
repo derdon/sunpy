@@ -11,7 +11,7 @@ thorough look at the functionality available.
 
 1. Maps
 -------
-Maps are the primary data type in SunPy they are spatially and / or temporally aware 
+Maps are the primary data type in SunPy. They are spatially and / or temporally aware
 data arrays. There are types of maps for a 2D image, a time series of 2D images or 
 1D spectra or 2D spectrograms. Making a map of your data is the normally the first 
 step in using SunPy to work with your data. 
@@ -29,7 +29,7 @@ a map from one of the supported data products is with the `Map()` class from the
     aia = Map(sunpy.AIA_171_IMAGE)
 
 This returns a map named aia which can be maniputated with standard SunPy map commands.
-For more information about maps checkout the :doc:`map guide <maps>`.
+For more information about maps check out the :doc:`map guide <maps>`.
 
 2. Plotting
 -----------
@@ -56,7 +56,7 @@ the first line is just importing SunPy. On the second line we create a
 SunPy Map object which is basically just a spatially-aware image or data array.
 On the last line we then plot the map object, using the built in 'quick plot' function `peek()`.
 
-SunPy uses a matplotlib like interface to it's plotting so more complex plots can be built by combining
+SunPy uses a matplotlib-like interface to its plotting so more complex plots can be built by combining
 SunPy with matplotlib::
 
     import sunpy
